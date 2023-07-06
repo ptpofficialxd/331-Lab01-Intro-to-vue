@@ -12,10 +12,21 @@
 
 <body>
     <div id="app">
-        <h1>Product goes here</h1>
+        <div class="nav-bar">
+            <cart-detail :cart="cart"></cart-detail>
+        </div>
+        <product-display :premium="true" @add-to-cart="updateCart" @remove-from-cart="removeCart"></product-display>
+
+
+        
     </div>
 
     <!-- Import Js -->
+    <script src="./components/ProductDisplay.js"></script>
+    <script src="./components/CartDetail.js"></script>
+    <script src="./components/ProductDetails.js"></script>
+    <script src="./components/ReviewForm.js"></script>
+    <script src="./components/ReviewList.js"></script>
     <script src="./main.js"></script>
 </body>
 
