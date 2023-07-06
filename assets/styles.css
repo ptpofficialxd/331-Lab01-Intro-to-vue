@@ -88,7 +88,7 @@ li {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
 }
 
-.out-of-stock-img {
+.outOfStockImg {
   opacity:0.5
 }
 
@@ -179,4 +179,29 @@ ul {
   .review-form {
     width: 90%;
   }
+}
+
+.input-checkbox {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  margin-right: 5px;
+  vertical-align: bottom;
+  position: relative;
+  top: 7px;
+}
+
+.checkbox-label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
